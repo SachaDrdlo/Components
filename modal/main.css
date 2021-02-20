@@ -1,0 +1,81 @@
+* {
+    box-sizing: content-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    background-color: #ebebe8;
+    z-index: 0;
+    height: 100%;
+}
+
+h1 {
+    color: #2d334a;
+}
+
+i {
+    color: #2d334a;
+}
+
+button {
+    background-color: #ffd803;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 3px;
+    color: #2d334a;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: #bae8e8;
+    padding: 15px 45px;
+    transition: all 0.5s ease;
+}
+
+.container {
+    width: 1800px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.modal-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    transform: translateY(50%);
+    z-index: -1;
+    top: 0;
+    opacity: 0;
+    background-color: #ffd803;
+    padding: 10px;
+    transition: opacity 0.7s ease;
+    border-radius: 3px;
+    filter: drop-shadow(0 0 0.1rem grey);
+}
+
+.pop {
+    opacity: 1;
+    z-index: 0;
+}
+
+
+.none {
+    opacity: 0;
+    z-index: -1;
+}
+

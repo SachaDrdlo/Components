@@ -1,0 +1,88 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    background-color: #fffffe;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.container {
+    width: 1800px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.hamburgerMenu {
+    position: relative;
+}
+
+.icon {
+    z-index: 2;
+    position: relative;
+}
+
+i {
+    transition: all 0.7s ease;
+    margin-top: 10px;
+    color: #ffd803;
+}
+
+.sideBar {
+    transform: translateX(-90px);
+    transition: all 0.7s ease;
+    background-color: transparent;
+    display: inline-block;
+    height: 100%;
+    width: 5%;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    padding: 40px 20px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 10%;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+li+li {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #2d334a;
+    /* font-size: 1rem; */
+}
+
+.bcg {
+    background-color: #bae8e8;
+    transform: translateX(0px);
+    transition: all 0.7s ease;
+    display: inline-block;
+    padding: 40px 20px;
+    width: 15%;
+    height: 100%;
+}
+
+.iconColor {
+    color: #2d334a;
+    margin-left: 10vw;
+}
+
+section {
+    height: 100vh;
+    transition: margin-left 0.8s ease;
+}
+
+.slide {
+    margin-left: 25%;
+}

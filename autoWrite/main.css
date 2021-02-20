@@ -1,0 +1,21 @@
+* {
+    box-sizing: content-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    background-color: #ebebe8;
+    z-index: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272343;
+    color: #ffd803;
+}
+
+
